@@ -1,3 +1,4 @@
+
 let searchForm = document.querySelector('.search-form-container');
 
 document.querySelector('#search-btn').onclick = () =>{
@@ -50,3 +51,7 @@ document.querySelector('.home').onmouseleave = () =>{
 
     document.querySelector('.home .home-parallax-img').style.transform = `translateX(0px) translateY(0px)`;
 }   
+
+var typed = new Typed(".autotype",{
+    strings : ["Discover the essence of global cuisine with our spice collection."],
+})
